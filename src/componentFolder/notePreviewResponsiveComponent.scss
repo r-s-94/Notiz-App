@@ -1,0 +1,406 @@
+@media screen and (min-width: 1400px) {
+  .note-preview-div {
+    &__headline {
+      font-size: 2.5rem;
+    }
+
+    &__create-note-link {
+      margin-left: 17%;
+
+      &--create-note-button--create-note-icon {
+        width: 3rem;
+        height: auto;
+      }
+    }
+
+    &__note-container {
+      margin: -2.5% 25% 0 25%;
+      height: 80vh;
+
+      &--note-div {
+        margin: 5% 5%;
+
+        &--headline {
+          font-size: 1.7rem;
+        }
+
+        &--main-text {
+          font-size: 1rem;
+        }
+
+        &--date-and-time {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .note-preview-div {
+    &__headline {
+      font-size: 2.5rem;
+    }
+
+    &__create-note-link {
+      margin-left: 20%;
+
+      &--create-note-button--create-note-icon {
+        width: 2.7rem;
+        height: auto;
+      }
+    }
+
+    &__note-container {
+      margin: -2.7% 23% 0 23%;
+      height: 80vh;
+
+      &--note-div {
+        margin: 5% 5%;
+
+        &--headline {
+          font-size: 1.5rem;
+        }
+
+        &--main-text {
+          font-size: 1rem;
+        }
+
+        &--date-and-time {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .note-preview-div {
+    &__headline {
+      font-size: 2.5rem;
+    }
+
+    &__create-note-link {
+      &--create-note-button--create-note-icon {
+        width: 2.5rem;
+        height: auto;
+      }
+    }
+
+    &__note-container {
+      margin: -2.7% 23% 0 23%;
+      height: 80vh;
+
+      &--note-div {
+        margin: 5% 5%;
+
+        &--headline {
+          font-size: 1.3rem;
+        }
+
+        &--main-text {
+          font-size: 0.9rem;
+        }
+
+        &--date-and-time {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .note-preview-div {
+    &__headline {
+      font-size: 2.5rem;
+    }
+
+    &__create-note-link {
+      margin-left: 0;
+
+      &--create-note-button--create-note-icon {
+        width: 2.3rem;
+        height: auto;
+      }
+    }
+
+    &__note-container {
+      margin: 2.5% 20% 0 20%;
+      height: 70vh;
+
+      &--note-div {
+        margin: 5% 5%;
+
+        &--headline {
+          font-size: 1.3rem;
+        }
+
+        &--main-text {
+          font-size: 0.9rem;
+        }
+
+        &--date-and-time {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .note-preview-div {
+    &__headline {
+      font-size: 2.3rem;
+    }
+
+    &__create-note-link {
+      &--create-note-button--create-note-icon {
+        width: 2rem;
+        height: auto;
+      }
+    }
+
+    &__note-container {
+      margin: 5% 20% 0 20%;
+      height: 70vh;
+
+      &--note-div {
+        margin: 7% 5%;
+
+        &--headline {
+          font-size: 1.3rem;
+        }
+
+        &--main-text {
+          font-size: 0.8rem;
+        }
+
+        &--date-and-time {
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .note-preview-div {
+    &__headline {
+      font-size: 2.1rem;
+    }
+
+    &__create-note-link {
+      &--create-note-button--create-note-icon {
+        width: 2rem;
+        height: auto;
+      }
+    }
+
+    &__note-container {
+      margin: 7% 20% 0 20%;
+      height: 70vh;
+
+      &--note-div {
+        margin: 7% 5%;
+
+        &--headline {
+          font-size: 1.3rem;
+        }
+
+        &--main-text {
+          font-size: 0.8rem;
+        }
+
+        &--date-and-time {
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .note-preview-div {
+    &__headline {
+      font-size: 2rem;
+    }
+
+    &__create-note-link {
+      &--create-note-button--create-note-icon {
+        width: 2rem;
+        height: auto;
+      }
+    }
+
+    &__note-container {
+      margin: 7% 15% 0 15%;
+      height: 70vh;
+
+      &--note-div {
+        margin: 5% 5%;
+
+        &--headline {
+          font-size: 1.1rem;
+        }
+
+        &--main-text {
+          font-size: 0.9rem;
+        }
+
+        &--date-and-time {
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .note-preview-div {
+    &__headline {
+      font-size: 2rem;
+    }
+
+    &__create-note-link {
+      &--create-note-button--create-note-icon {
+        width: 1.7rem;
+        height: auto;
+      }
+    }
+
+    &__note-container {
+      margin: 7% 10% 0 10%;
+      height: 60vh;
+
+      &--note-div {
+        margin: 5% 5%;
+
+        &--headline {
+          font-size: 1rem;
+        }
+
+        &--main-text {
+          font-size: 0.7rem;
+        }
+
+        &--date-and-time {
+          font-size: 0.6rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .note-preview-div {
+    &__headline {
+      font-size: 1.6rem;
+      padding: 0.5rem;
+    }
+
+    &__create-note-link {
+      &--create-note-button--create-note-icon {
+        width: 1.4rem;
+        height: auto;
+      }
+    }
+
+    &__note-container {
+      margin: 7% 7% 0 10%;
+      height: 50vh;
+      max-width: 80%;
+
+      &--note-div {
+        margin: 7% 5%;
+
+        &--headline {
+          font-size: 0.9rem;
+        }
+
+        &--main-text {
+          font-size: 0.7rem;
+        }
+
+        &--date-and-time {
+          font-size: 0.6rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .note-preview-div {
+    &__headline {
+      font-size: 1.3rem;
+      padding: 0.5rem;
+    }
+
+    &__create-note-link {
+      &--create-note-button--create-note-icon {
+        width: 1.1rem;
+        height: auto;
+      }
+    }
+
+    &__note-container {
+      margin: 7% 10% 0 10%;
+      height: 50vh;
+
+      &--note-div {
+        margin: 7% 5%;
+
+        &--headline {
+          font-size: 0.8rem;
+        }
+
+        &--main-text {
+          font-size: 0.6rem;
+        }
+
+        &--date-and-time {
+          font-size: 0.5rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .note-preview-div {
+    &__headline {
+      font-size: 1.1rem;
+      padding: 0.5rem;
+    }
+
+    &__create-note-link {
+      &--create-note-button--create-note-icon {
+        width: 1rem;
+        height: auto;
+      }
+    }
+
+    &__note-container {
+      margin: 10% 3% 0 10%;
+      height: 50vh;
+
+      &--note-div {
+        margin: 5% 5%;
+        box-shadow: 0.1rem 0.1rem 0.3rem 0.2rem #d3d3d3;
+
+        &--headline {
+          font-size: 0.7rem;
+        }
+
+        &--main-text {
+          font-size: 0.5rem;
+        }
+
+        &--date-and-time {
+          font-size: 0.4rem;
+        }
+      }
+    }
+  }
+}
