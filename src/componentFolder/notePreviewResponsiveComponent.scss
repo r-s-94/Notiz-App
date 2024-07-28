@@ -1,3 +1,9 @@
+@mixin direction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (min-width: 1400px) {
   .note-preview-div {
     &__headline {
@@ -9,7 +15,7 @@
 
       &--create-note-button--create-note-icon {
         width: 3rem;
-        height: auto;
+        @include direction();
       }
     }
 
@@ -47,7 +53,7 @@
 
       &--create-note-button--create-note-icon {
         width: 2.7rem;
-        height: auto;
+        @include direction();
       }
     }
 
@@ -83,7 +89,7 @@
     &__create-note-link {
       &--create-note-button--create-note-icon {
         width: 2.5rem;
-        height: auto;
+        @include direction();
       }
     }
 
@@ -121,7 +127,7 @@
 
       &--create-note-button--create-note-icon {
         width: 2.3rem;
-        height: auto;
+        @include direction();
       }
     }
 
@@ -157,7 +163,7 @@
     &__create-note-link {
       &--create-note-button--create-note-icon {
         width: 2rem;
-        height: auto;
+        @include direction();
       }
     }
 
@@ -193,7 +199,7 @@
     &__create-note-link {
       &--create-note-button--create-note-icon {
         width: 2rem;
-        height: auto;
+        @include direction();
       }
     }
 
@@ -229,7 +235,7 @@
     &__create-note-link {
       &--create-note-button--create-note-icon {
         width: 2rem;
-        height: auto;
+        @include direction();
       }
     }
 
@@ -265,7 +271,7 @@
     &__create-note-link {
       &--create-note-button--create-note-icon {
         width: 1.7rem;
-        height: auto;
+        @include direction();
       }
     }
 
@@ -302,7 +308,7 @@
     &__create-note-link {
       &--create-note-button--create-note-icon {
         width: 1.5rem;
-        height: auto;
+        @include direction();
       }
     }
 
@@ -339,6 +345,7 @@
 
     &__create-note-link {
       &--create-note-button--create-note-icon {
+        @include direction();
         width: 1.3rem;
         height: auto;
       }
@@ -376,8 +383,9 @@
 
     &__create-note-link {
       &--create-note-button--create-note-icon {
-        width: 1.3rem;
+        width: 1.5rem;
         height: auto;
+        @include direction();
       }
     }
 

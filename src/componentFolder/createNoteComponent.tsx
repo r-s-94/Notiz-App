@@ -198,7 +198,7 @@ export default function CreateNoteComponent() {
                 onClick={() => {
                   deleteNote(noteTransmissionData.selectedNoteId);
                 }}
-                className="create-note-div__button-div--delete-note-button button"
+                className="create-note-div__popup-main-window--popup-message-window--button-div--delete-note-button button"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
