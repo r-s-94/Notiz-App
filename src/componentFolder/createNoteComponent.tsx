@@ -14,7 +14,6 @@ export default function CreateNoteComponent() {
     setNoteTransmissionData,
   } = useContext(noteContext);
 
-  const [correctNoteId, setCorrectNoteId] = useState<number>(0);
   const [noteInfoPopUp, setNoteInfoPopUp] = useState<boolean>(false);
   const [deleteNotePopUp, setDeleteNotePopUp] = useState<boolean>(false);
 
@@ -135,8 +134,6 @@ export default function CreateNoteComponent() {
         inputField: selectedNote.headline,
         textArea: selectedNote.mainText,
       });
-
-      setCorrectNoteId(selectedNote.id);
     }
   }
 
@@ -156,11 +153,10 @@ export default function CreateNoteComponent() {
     setNoteFolderArray(newArray);
     setNoteTransmissionData({
       ...noteTransmissionData,
+      selectedNoteId: 0,
       inputField: "",
       textArea: "",
-      selectedNoteId: 0,
     });
-    setCorrectNoteId(0);
 
     setDeleteNotePopUp(false);
   }
