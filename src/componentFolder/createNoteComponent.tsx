@@ -48,7 +48,6 @@ export default function CreateNoteComponent() {
     ) {
       if (selectedNote) {
         updateNote(selectedNote);
-        setCorrectNoteId(selectedNote.id);
       } else {
         createNote();
       }
@@ -103,7 +102,7 @@ export default function CreateNoteComponent() {
     const updateNoteObject: NoteObject = {
       headline: noteTransmissionData.inputField,
       mainText: noteTransmissionData.textArea,
-      id: correctNoteId,
+      id: selectedNote.id,
       date: updateDayAndTime,
     };
 
@@ -115,10 +114,10 @@ export default function CreateNoteComponent() {
     setNoteFolderArray(updateNoteArray);
     setNoteTransmissionData({
       ...noteTransmissionData,
+      selectedNoteId: 0,
       inputField: "",
       textArea: "",
     });
-    setCorrectNoteId(0);
   }
 
   function setNoteInStorage(noteArray: NoteObject[]) {
@@ -159,6 +158,7 @@ export default function CreateNoteComponent() {
       ...noteTransmissionData,
       inputField: "",
       textArea: "",
+      selectedNoteId: 0,
     });
     setCorrectNoteId(0);
 
