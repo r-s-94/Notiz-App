@@ -111,7 +111,6 @@ export default function CreateNoteComponent() {
 
     setNoteInStorage(updateNoteArray);
     loadNoteFromStorage();
-    history;
     setNoteFolderArray(updateNoteArray);
     setNoteTransmissionData({
       ...noteTransmissionData,
