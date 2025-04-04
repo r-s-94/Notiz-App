@@ -24,7 +24,7 @@ export default function NotePreviewComponent() {
 
   return (
     <div className="note-preview-div">
-      <h1 className="note-preview-div__headline">Notizen</h1>
+      <h1 className="note-preview-div__headline">Note Scribe App</h1>
       <Link
         to="create-note-component"
         className="note-preview-div__create-note-link"
